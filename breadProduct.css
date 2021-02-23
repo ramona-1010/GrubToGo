@@ -103,7 +103,8 @@ a.drop-item:link, a.drop-item:visited {
 
 /*-----Footer-----*/
 .footer {
-    position: absolute;
+    position: sticky;
+    bottom: 0px;
     padding-top: 5px;
     padding-bottom: 5px;
     left: 0;
