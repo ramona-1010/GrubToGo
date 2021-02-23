@@ -1,4 +1,7 @@
-
+.jumbotron {
+    background-color: #8FBC8F !important;
+    color: white;
+}
 
 .form-control{
 
