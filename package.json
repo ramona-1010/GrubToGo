@@ -1,0 +1,19 @@
+{
+  "name": "grubtogo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bootstrap.min.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TeonMehta/GrubToo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TeonMehta/GrubToo/issues"
+  },
+  "homepage": "https://github.com/TeonMehta/GrubToo#readme"
+}
