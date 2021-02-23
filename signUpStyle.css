@@ -5,7 +5,11 @@
   width: 100%;
 
 }
-
+.bg-light {
+    background-color: #cfe2cf;
+  opacity: 0.9;
+  padding: 16px;
+}
 
 
 .title{
@@ -62,6 +66,7 @@ a.link:hover, a.link:active {
 }
     
 /*-----Drop Down Menu Links-----*/
+
 a.drop-item:link, a.drop-item:visited {
     color: #8FBC8F;
 }
