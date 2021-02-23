@@ -1,9 +1,10 @@
-/* body {
-    background-image: url(https://cdn.pixabay.com/photo/2018/04/20/12/59/fruit-3335938_1280.jpg);
+body {
+    background-image: url("background-home.jpg");
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-} */
+
+}
 
 .form-control{
 
