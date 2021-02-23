@@ -1,0 +1,120 @@
+<!DOCTYPE htlm>
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset = "utf-8">
+		<title> Frozen Berries</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--Link to Style sheet-->
+		<link rel="stylesheet" href="Frozen.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!--Link to kit's Code for Icons-->
+		<script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+		<!--Link to Bootstrap Jasvascript Pages-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+		
+	</head>
+	
+	<body>
+		
+		<!--Jumbotron Heading-->
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Frozen Foods</h1>
+        </div>
+		
+		 <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="homepage.html"><i class='fas fa-seedling'></i>GrubToGo</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="signUpPage.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="p5.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Aisles
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="fruit_vegetables.html">Fruits & Vegetables</a>
+                        <a class="dropdown-item" href="meat-aisle.html">Meats & Alternatives</a>
+                        <a class="dropdown-item" href="dairyandeggs.html">Dairy & Eggs</a>
+                        <a class="dropdown-item" href="breadandbakedgoods.html">Bread & Baked Goods</a>
+                        <a class="dropdown-item" href="pantryaisle.html">Pantry Items</a>
+                        <a class="dropdown-item" href="FrozenAisle.html">Frozen Foods</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="signUpPage.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+		
+		<!--Pages Body-->
+		<div class="container">
+			
+			<!--Main Section -Frozen Products-->
+			<div class="container-fluid mt-3 card p-3 bg-light">
+				
+				<div class="row">
+					<!--2/3 of section width occupied by product picture on tablet screens or larger-->
+					<div class="col-md-8">
+						<div class="text-center">
+							<img class="img-fluid img-thumbnail" src="FrozenProducts/FrozenBerries.jpg" alt="Picture of Product"/>
+						</div>
+					</div>
+					<!--1/3 of section width occupied by add-to-cart section on tablet screens or larger-->
+					<div class="col-md-4">
+						<h4>Frozen Berries</h4>
+						<h5>$5.99</h5>
+						<p class="text-muted">/Bag (300g)</p>
+						
+						<!--Button that shows more description-->
+						<a class="btn btn-primary" data-toggle="collapse" href="#moreDesctription" role="button" aria-expanded="false" aria-controls="collapseExample"> 
+							More Description 
+						</a>
+						<div class="collapse" id="moreDesctription">
+							<div class="card card-body">
+								Delicious mix of frozen blueberries, raspberries, cranberries and blackberries.  <br/>Farmed in Canada.
+							</div>
+						</div>
+						<br/><br/>
+						
+						<!--Add to cart form-->
+						<form class="addToCart">
+							<label for="quantity" class="form-label"> Quantity: </label>
+							<input class="form-control" type="number" name="quantity" value="1"/>
+							<input class="form-control"  type="submit" name="addToCart" value="Add To Cart"/>
+						</form>	
+					</div>
+				</div>
+			</div>
+		</div>
+		
+		
+		
+		<!--Footer-->
+        <div class="footer container-fluid">
+            <div class="row">
+                <div class="col-sm-3"><i class="fas fa-calendar-alt"></i> Place Orders 24/7</div>
+                <div class="col-sm-3"><i class="fas fa-truck"></i> Deliveries Mon-Fri 8am-5pm</div>
+                <div class="col-sm-3"><i class="fas fa-envelope-square"></i> inquiries@grubtogo.ca</div>
+                <div class="col-sm-3"><i class="fab fa-facebook"></i> @GrubToGoMTL</div>
+            </div>
+        </div>
+	</body>
+</html>

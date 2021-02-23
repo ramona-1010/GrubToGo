@@ -1,0 +1,187 @@
+<!DOCTYPE htlm>
+<html lang="en" dir="ltr">
+
+	<head>
+		<meta charset = "utf-8">
+		<title>User Profile</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+		<!--Link to Style sheet-->
+		<link rel="stylesheet" href="UserBackStore.css">
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+		<!--Link to kit's Code for Icons-->
+		<script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+		<!--Link to Bootstrap Jasvascript Pages-->
+		<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	</head>
+	
+	<body>
+		
+		<!--Jumbotron Heading-->
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1>Backstore</h1>
+        </div>
+		
+		<!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="homepage.html"><i class='fas fa-seedling'></i>GrubToGo</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRODUCT LIST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="UserList.html">USER LIST</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="p11backstore.html">ORDER LIST</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="homepage.html">EXIT BACKSTORE</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+		
+		<!--Page Body-->
+		<div class="container">
+			
+			<!--Page Title/-->
+			<div class="container-fluid mt-3 card p-3 bg-dark text-white">
+				<h2 class="text-center">USER PROFILE</h2>
+			</div>
+		
+			<!--Main Section - User  Data-->
+			<div class="container-fluid mt-3 card p-3 bg-dark text-white">
+			
+				<form action="UserList.html">
+					
+					<!--User # Data-->
+					<div class="form-group">
+						<label for="userNo" class="form-label">User#</label>
+						<input id="userNo" type="text" name="userNo" class="form-control" value="0000001"/>
+					</div>
+					
+					<!--Name Data-->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="firstName" class="form-label">First Name</label>
+								<input id="firstName" type="text" name="firstName" class="form-control" value="FirstName"/>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="lastName" class="form-label">Last Name</label>
+								<input id="lastName" type="text" name="lastName" class="form-control" value="LastName"/>
+							</div>
+						</div>
+					</div>
+		
+					<!--Date of Birth-->
+					<div class="form-group">
+						<label for="dateOfBirth" class="form-label">Date of Birth</label>
+						<input id="dateOfBirth" type="date" name="dateOfBirth" class="form-control" value="1995-10-19"/>
+					</div>
+					
+					<!--Gender Data-->	
+					<div class="form-group">
+						<label for="gender" class="form-label">Gender: </label>
+						<select name="gender" class="form-control">
+							<option value="male">Male</option>
+							<option value="female">Female</option>
+							<option value="Undisclosed">Undisclosed</option>
+						</select>
+					</div>
+					
+					<!--Phone Number Data-->
+					<div class="form-group">
+						<label for="phoneNumber" class="form-label">Phone Number</label>
+						<input id="phoneNumber" type="tel" name="phoneNumber" class="form-control" value="514-555-5555"/>
+					</div>
+					
+					<!--Email Data-->
+					<div class="form-group">
+						<label for="email" class="form-label">Email</label>
+						<input id="email" type="email" name="phoneNumber" class="form-control" value="frederikboudreau@hotmail.com"/>
+					</div>
+					
+					<!--Adress Data-->
+					<div class="form-group">
+						<label for="addressLine1" class="form-label">Street Address</label>
+						<input id="addressLine1" type="text" class="form-control" value="555 fifth av">
+					</div>
+                
+					<div class="form-group">
+						<label for="addressLine2" class="form-label">Street Address line 2</label>
+						<input id="addressLine2" type="text" class="form-control" value="app 5">
+					</div>
+					
+					<!--Adress Data Continued-->
+					<div class="row">
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="city" class="form-label">City</label>
+								<input id="city" type="text" class="form-control" name="city" value="Montreal"/>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="country" class="form-label">Country</label>
+								<select  id="coutry" name="country" class="form-control" value="CAN">
+									<option value="CAN">Canada</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="province" class="form-label">Province</label>
+								<select id="province" name="province" class="form-control" value="Quebec">
+									<option value="AB">Alberta</option>
+									<option value="BC">British Columbia</option>
+									<option value="MB">Manitoba</option>
+									<option value="NB">New Brunswick</option>
+									<option value="NL">Newfoundland and Labrador</option>
+									<option value="NT">Northwest Territories</option>
+									<option value="NS">Nova Scotia</option>
+									<option value="NU">Nunavut</option>
+									<option value="ON">Ontario</option>
+									<option value="PE">Prince Edward Island</option>
+									<option value="QC" selected="selected">Quebec</option>
+									<option value="SK">Saskatchewan</option>
+									<option value="YT">Yukon</option>
+								</select>
+							</div>
+						</div>
+						<div class="col-md-6">
+							<div class="form-group">
+								<label for="postalCode" class="form-label">Postal Code</label>
+								<input id="postalCode" type="text" class="form-control" name="postalCode" value="J4Y7B9"/>
+							</div>
+						</div>
+					</div>	
+						<button type="submit" class="btn btn-primary mr-3">Save Profile</button>
+				</form>
+			</div>			
+		</div>
+		
+		<!--Footer-->
+        <div class="footer container-fluid">
+            <div class="row">
+                <div class="col-sm-3"><i class="fas fa-calendar-alt"></i> Place Orders 24/7</div>
+                <div class="col-sm-3"><i class="fas fa-truck"></i> Deliveries Mon-Fri 8am-5pm</div>
+                <div class="col-sm-3"><i class="fas fa-envelope-square"></i> inquiries@grubtogo.ca</div>
+                <div class="col-sm-3"><i class="fab fa-facebook"></i> @GrubToGoMTL</div>
+            </div>
+        </div>
+	</body>
+</html>

@@ -1,0 +1,29 @@
+.jumbotron{
+    text-align: center;
+}
+.card-price{
+    display: flex;
+    justify-content: space-between;
+}
+.card-price p:nth-child(1){
+    font-weight: bold;
+    font-size: 1.3em;
+}
+.card-price p:nth-child(2){
+    color: #9b9b9b;
+}
+h5{
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.btn{
+    background-color: #66B032;
+    border-color:#66B032;
+}
+.add-to-cart{
+    display: flex;
+    justify-content: space-between;
+}
+.product-body{
+    text-align: center;
+}

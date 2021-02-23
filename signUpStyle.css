@@ -1,0 +1,291 @@
+/* body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/20/12/59/fruit-3335938_1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+.form-control{
+
+  width: 50%;
+
+}
+
+.title{
+  background-color: white;
+  width: 100%;
+  height: 100px;
+}
+
+h4{
+  vertical-align: middle; 
+  line-height: 4.25;
+  
+}
+
+
+/* .card:hover{
+      
+    transform: scale(1.1);
+} */
+
+.card .read-more:hover{
+    font-size: 14px;
+}
+
+/* body {
+    background: #eee
+} */
+
+/*-----Navigation Bar-----*/
+.navbar-custom {
+    background-color: #F5F5F5;
+}
+
+
+/*-----Navigation Bar Links-----*/
+a.navbar-brand:link, a.navbar-brand:visited {
+    color: #8FBC8F;
+}
+
+a.navbar-brand:hover, a.navbar-brand:active {
+    color: #F5F5F5;
+}
+
+a.dropdown-toggle:link, a.dropdown-toggle:visited {
+    color:#8FBC8F;
+}
+
+a:link, a:visited {
+    color: #8FBC8F;
+}
+
+a.link:hover, a.link:active {
+    background-color: white;
+}
+    
+/*-----Drop Down Menu Links-----*/
+a.drop-item:link, a.drop-item:visited {
+    color: #8FBC8F;
+}
+
+
+/*-----Footer-----*/
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+	margin-top: 20;
+	margin-bottom:0;
+    background-color: #F5F5F5;
+    color: #8FBC8F !important;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    padding-left: 5px;
+    height: 25px;
+}
+th {
+    padding-bottom: 0;
+    padding-left: 5px;
+    text-align: left;
+}
+
+/*--------Background Image-------*/
+/* body {
+    background-image: url(https://cdn.pixabay.com/photo/2018/04/20/12/59/fruit-3335938_1280.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+} */
+
+
+
+
+/*
+
+ul.navBarList {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #999999;
+    top:0;
+    width: 100%;
+    opacity: 85%;
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+}
+
+.nav-link:nth-child(1) {
+    margin-right: auto;
+}
+
+
+.sub {
+    float: right;
+}
+
+.user {
+    float: right;
+}
+
+.logoLink {
+    float: left;
+}
+
+.dropdown-menu{
+    left: 314px;
+}
+
+.dropbtn {
+    overflow: hidden;
+    background-color: #66B032;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 14px 24px;
+    border: none;
+    cursor: pointer;
+    display: block;
+}
+
+a.dropbtn:hover, a.dropbtn:active {
+    color: orange;
+}
+
+.dropdown {
+    position:absolute;
+    display: contents;
+}
+
+.dropdown-content {
+    display: none;
+    float: right;
+    position: absolute;
+    background-color: white;
+    width: 200%;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.navBarList .dropdown-content a {
+    color: #66B032;
+    padding: 14px 24px;
+    text-decoration: none;
+    display: block;
+}
+
+.aisles-dropdown:hover .dropdown-content {
+    background-color: #f2f2f2;
+    display: block;
+}
+
+a.DL:hover, a.DL:active {
+    background-color: white;
+    color: orange;
+}
+
+
+.aisles {
+    margin-top: 10%;
+    padding-right: 0;
+    width: 20%;
+    overflow: hidden;
+    background-color:#999999;
+    opacity: 85%;
+    float: left;
+}
+
+ul.aislesList {
+    list-style-type: none;
+    position: relative;
+}
+
+a.aisleList:link, a.aisleList:visited {
+    background-color:  #999999;
+    color: white;
+    padding: 14px 24px;
+    text-align: left;
+    text-decoration: underline;
+    display: block;
+}
+
+a.aisleList:hover, a.aisleList:active {
+    background-color: #999999;
+    color: orange;
+}
+
+
+a.sub:link, a.sub:visited {
+    background-color: #999999;
+    color: white;
+    padding: 14px 24px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.sub:hover, a.sub:active {
+    background-color: #999999;
+    color: orange;
+}
+
+
+a.user:link, a.user:visited {
+    background-color:#66B032;
+    color: white;
+    padding: 15px 24px;
+    text-align: right;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.user:hover, a.user:active{
+    background-color:#66B032;
+    color: orange;
+}
+
+
+a.logoLink:link, a.logoLink:visited {
+    background-color: white;
+    color: #66B032;
+    padding: 15px 24px;
+    text-align: left;
+    text-decoration: none;
+    display: inline-block;
+}
+
+a.logoLink:hover, a.logoLink:active {
+    background-color: #66B032;
+    color: white;
+}
+
+
+.footer {
+    position: sticky;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #999999;
+    color: white;
+    opacity: 85%;
+}
+
+table {
+    width: 100%;
+}
+
+td {
+    height: 25px;
+}
+th {
+    padding-bottom: 0;
+    text-align: left;
+}
+*/

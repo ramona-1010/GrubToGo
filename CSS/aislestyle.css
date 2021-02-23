@@ -1,0 +1,185 @@
+
+
+/*-----Jumbotron Heading-----*/
+.jumbotron {
+    background-color: #8FBC8F;
+    color: white;
+}
+
+
+/*-----Navigation Bar-----*/
+.navbar-custom {
+    background-color: #F5F5F5;
+}
+
+
+/*-----Navigation Bar Links-----*/
+a.navbar-brand:link, a.navbar-brand:visited {
+    color: #8FBC8F;
+}
+
+a.navbar-brand:hover, a.navbar-brand:active {
+    color: #F5F5F5;
+}
+
+a.dropdown-toggle:link, a.dropdown-toggle:visited {
+    color:#8FBC8F;
+}
+
+a:link, a:visited {
+    color: #8FBC8F;
+}
+
+a.link:hover, a.link:active {
+    background-color: white;
+}
+
+/*-----Drop Down Menu Links-----*/
+a.drop-item:link, a.drop-item:visited {
+    color: #8FBC8F;
+}
+
+
+/*-----Footer-----*/
+.footer {
+    position: fixed;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8FBC8F;
+    color: #373737;
+}
+
+
+/*--------Pantry Aisle----------*/
+
+
+
+body{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+	background-image: url('https://images.unsplash.com/photo-1542990253-a781e04c0082?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=984&q=80');
+	background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.cont .small-cont h1{
+  color: white;
+  text-align: center;
+}
+
+
+.col img{
+  width: 150px;
+  height: 150px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 25px;
+
+}
+
+.col{
+  float: left;
+  overflow: hidden;
+}
+
+.col{
+  flex: 30%;
+  padding: 25px;
+  width: 260px;
+  border-radius: 10px;
+  min-height: 350px;
+  margin:0 10px 10px 0;
+  background-color: #fdfdfd;
+  border: 2px solid #dddddd;
+
+}
+
+.cont{
+  margin: 83px 100px 50px 150px;
+
+}
+
+.small-cont{
+  max-width: 4000px;
+  margin: auto;
+  padding-left: 25px;
+  padding-right: 25px;
+
+
+}
+
+.col .title .head h3{
+  margin-top: 5px;
+}
+.col .title .head h4{
+  margin: 0;
+}
+
+
+/*---Button Start---*/
+
+.but span{
+  display: inline-block;
+  border: 1px solid #aaaaaa;
+  background-color:  #373737;
+  color: white;
+  width:150px;
+  height:40px;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.but:hover span{
+  background: #7ea04d;
+  color: white;
+}
+
+/*---Button End---*/
+
+.head:hover{
+  color: #f0a500;
+  cursor: pointer;
+
+}
+
+
+.col img:hover {
+  opacity: 0.5;
+  cursor: pointer;
+}
+
+.col .title{
+  color: black;
+  text-decoration: none;
+}
+
+.all{
+  margin-bottom: 2000px;
+}
+
+@media only screen and (max-width: 620px){
+  .cont{
+    width: 100%;
+    margin-left: 100px;
+  }
+
+  .all {
+
+      margin-bottom: 9000px;
+  }
+}
+
+@media only screen and (max-width: 500px){
+  .aisles{
+    display: none;
+  }
+}

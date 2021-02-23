@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <!--Meta Tags-->
+        <meta charset="UTF-8">
+        <meta name="keywords" content="HTML, CSS">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+        <!--Link to CSS-->
+        <link rel="stylesheet" href="homepage.css">
+
+        <!--Link to kit's Code for Icons-->
+        <script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+
+        <!--Title of Page-->
+        <title>GrubToGo | Dairy & Eggs</title>
+    </head>
+
+    <body>
+        <!--Jumbotron Heading-->
+        <div class="jumbotron text-center" style="margin-bottom:0">
+            <h1><i class="fas fa-egg"></i> Dairy & Eggs</h1> 
+          </div>
+
+        <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="homepage.html"><i class='fas fa-seedling'></i>GrubToGo</a>
+          
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="signUpPage.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="P5.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                    Aisles
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="fruit_vegetables.html">Fruits & Vegetables</a>
+                        <a class="dropdown-item" href="meat-aisle.html">Meats & Alternatives</a>
+                        <a class="dropdown-item" href="dairyandeggs.html">Dairy & Eggs</a>
+                        <a class="dropdown-item" href="breadandbakedgoods.html">Bread & Baked Goods</a>
+                        <a class="dropdown-item" href="pantryaisle.html">Pantry Items</a>
+                        <a class="dropdown-item" href="FrozenAisle.html">Frozen Foods</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="p4cart.html"><i class="fas fa-shopping-cart"></i> Cart</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+
+          <!--Aisle Display in Form of Card Deck-->
+          <!--Reformats Based on Size of Window-->
+          <div class="container">
+            <div class="card-deck">
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.pexels.com/photos/5545921/pexels-photo-5545921.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="milk.html" class="btn btn-outline-dark">1% Milk</a></h4>
+                        <p class="card-text">$4.99</p>
+                        <p class="card-text"><small class="text-muted">$0.25/100ml</small></p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.pexels.com/photos/6544066/pexels-photo-6544066.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Stawberry Milk</a></h4>
+                        <p class="card-text">$4.99</p>
+                        <p class="card-text"><small class="text-muted">$0.25/100ml</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-sm-block d-md-none"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1471691118458-a88597b4c1f5?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Chocolate Milk</a></h4>
+                        <p class="card-text">$5.99</p>
+                        <p class="card-text"><small class="text-muted">$0.50/100ml</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-md-block d-lg-none"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1562114808-b4b33cf60f4f?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1504&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Vanilla Yogurt</a></h4>
+                        <p class="card-text">$4.99</p>
+                        <p class="card-text"><small class="text-muted">$0.25/100ml</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-sm-block d-md-none"></div>
+                 <div class="w-100 d-none d-lg-block d-xl-none"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1604968236097-79444e8a0a6c?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Strawberry Yogurt</a></h4>
+                        <p class="card-text">$5.99</p>
+                        <p class="card-text"><small class="text-muted">$0.50/100ml</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-xl-block"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1525671661040-b38bb04d4968?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">White Eggs</a></h4>
+                        <p class="card-text">$2.99</p>
+                        <p class="card-text"><small class="text-muted">$0.25/un</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-sm-block d-md-none"></div>
+                <div class="w-100 d-none d-md-block d-lg-none"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1498654077810-12c21d4d6dc3?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Brown Eggs</a></h4>
+                        <p class="card-text">$3.89</p>
+                        <p class="card-text"><small class="text-muted">$0.32/un</small></p>
+                    </div>
+                </div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1589985270826-4b7bb135bc9d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Unsalted Butter</a></h4>
+                        <p class="card-text">$4.99</p>
+                        <p class="card-text"><small class="text-muted">$1.10/100g</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-sm-block d-md-none"></div>
+                <div class="w-100 d-none d-lg-block d-xl-none"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1589985269102-ff38adf6f00d?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1496&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Salted Butter</a></h4>
+                        <p class="card-text">$6.99</p>
+                        <p class="card-text"><small class="text-muted">$1.54/100g</small></p>
+                    </div>
+                </div>
+                <div class="w-100 d-none d-md-block d-lg-none"></div>
+                <div class="card mb-4">
+                    <img class="card-img-top img-fluid" src="https://images.unsplash.com/photo-1552767059-ce182ead6c1b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80" alt="Card image cap">
+                    <div class="card-body">
+                        <h4 class="card-title"><a href="#" class="btn btn-outline-dark stretched-link">Cheddar Cheese</a></h4>
+                        <p class="card-text">$5.29</p>
+                        <p class="card-text"><small class="text-muted">$1.96/100g</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+ 
+        <!--Footer-->
+          <div class="footer">
+            <div class="container-fluid">
+                <div class="row">
+                  <div class="col-sm-3"><i class="fas fa-calendar-alt"></i> Place Orders 24/7</div>
+                  <div class="col-sm-3"><i class="fas fa-truck"></i> Deliveries Mon-Fri 8am-5pm</div>
+                  <div class="col-sm-3"><i class="fas fa-envelope-square"></i> inquiries@grubtogo.ca</div>
+                  <div class="col-sm-3"><i class="fab fa-facebook"></i> @GrubToGoMTL</div>
+                </div>
+            </div>
+        </div>
+
+        <!--Script Sources for Bootstrap 4-->
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+    </body>
+</html>

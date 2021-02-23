@@ -1,0 +1,10 @@
+{
+    "product": {
+        "name": "name",
+        "description": "description",
+        "image": "image url",
+        "price": 0,
+        "unit": "1kg/1 can",
+        "stock": 100
+    }
+}

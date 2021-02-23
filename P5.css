@@ -1,0 +1,133 @@
+.jumbotron {
+    background-color: #8FBC8F !important;
+    color: white;
+}
+
+body {
+    background-image: url("background-home.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+h2 {
+  font-weight: normal;
+}
+.loginheader{
+  color: #F5F5F5;
+}
+
+.login-page{
+  padding: 50px;}
+
+form{
+  /*border: 3px solid #f9ffe6;*/
+  background-color: #cfe2cf;
+  opacity: 0.9;
+  padding: 16px;
+}
+
+input[type=text], input[type=password]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+}
+button {
+  background-color: darkslategrey;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+button:hover{
+  opacity: 0.8;
+}
+.cancel{
+  width: auto;
+  padding: 10px 18px;
+  background-color: lightslategrey;
+  color: white !important;
+}
+.signup{
+  width: auto;
+  padding: 10px 18px;
+  background-color: darkslategrey;
+  color: white !important;
+}
+.container{
+  padding: 16px;
+  width: 100%;
+}
+
+span.psw{
+  float: right;
+  padding-top: 16px;
+
+}
+
+
+/*for small screens*/
+@media screen and (max-width: 300px){
+  span.psw{
+    display: block;
+    float: none;
+  }
+  .cancel{
+    width: 100%;
+  }
+}
+
+/*---------header and footer---------------*/
+
+
+/*-----Navigation Bar-----*/
+.navbar-custom {
+    background-color: #F5F5F5;
+}
+
+
+/*-----Navigation Bar Links-----*/
+a.navbar-brand:link, a.navbar-brand:visited {
+    color: #8FBC8F;
+}
+
+a.navbar-brand:hover, a.navbar-brand:active {
+    color: #F5F5F5;
+}
+
+a.dropdown-toggle:link, a.dropdown-toggle:visited {
+    color:#8FBC8F ;
+}
+
+a:link, a:visited {
+    color: #8FBC8F;
+}
+
+a.link:hover, a.link:active {
+    background-color: white;
+}
+
+/*-----Drop Down Menu Links-----*/
+a.drop-item:link, a.drop-item:visited {
+    color: #8FBC8F;
+}
+
+
+/*-----Footer-----*/
+.footer {
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8FBC8F;
+    color: #373737;
+    border: 1px #8FBC8F;
+}

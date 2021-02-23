@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content ="width=device-width, initial-scalae=1">
+    <title>Edit an Order</title>
+    <link rel="stylesheet" href="P12.css">
+
+    <script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+  </head>
+  <body>
+    <!--Navigation Bar-->
+        <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+            <!-- Brand -->
+            <a class="navbar-brand" href="homepage.html"><i class='fas fa-seedling'></i>GrubToGo</a>
+
+            <!-- Toggler/collapsibe Button -->
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <!-- Navbar links -->
+            <div class="collapse navbar-collapse" id="collapsibleNavbar">
+              <ul class="navbar-nav">
+                <li class="nav-item">
+                  <a class="nav-link" href="#">PRODUCT LIST</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="UserList.html">USER LIST</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="p11backstore.html">ORDER LIST</a>
+                </li>
+				<li class="nav-item">
+                    <a class="nav-link" href="homepage.html">EXIT BACKSTORE</a>
+                </li>
+              </ul>
+            </div>
+        </nav>
+
+    <!-- end of Navigation Bar-->
+    <div class="container">
+      <div class="editorder">
+        <h2>Edit an Order</h2>
+      </div>
+      <div class="orderbox">
+        <label for="ordernum"><b>Order #: </b></label>
+        <input type="text" value="2109A8" name="ordernum">
+        <br>
+        <br>
+        <table>
+          <tr>
+            <th>Product</th>
+            <th>Quantity</th>
+            <th>Price</th>
+          </tr>
+          <tr>
+            <td>Product 1</td>
+            <td><input class="input-field" type="number" name="quantity" value="1"></td>
+            <td>$<input type="text" value="2.50" name="price" maxlength="7" size="6"></td>
+          </tr>
+          <tr>
+            <td>Product 2</td>
+            <td><input class="input-field" type="number" name="quantity" value="1"></td>
+            <td>$<input type="text" value="2.50" name="price" maxlength="7" size="6"></td>
+          </tr>
+          <tr>
+            <td>Product 3</td>
+            <td><input class="input-field" type="number" name="quantity" value="1"></td>
+            <td>$<input type="text" value="2.50" name="price" maxlength="7" size="6"></td>
+          </tr>
+          <tr>
+            <td>Product 4</td>
+            <td><input class="input-field" type="number" name="quantity" value="1"></td>
+            <td>$<input type="text" value="2.50" name="price" maxlength="7" size="6"></td>
+          </tr>
+          <tr>
+            <td>Product 5</td>
+            <td><input class="input-field" type="number" name="quantity" value="1"></td>
+            <td>$<input type="text" value="2.50" name="price" maxlength="7" size="6"></td>
+          </tr>
+          <tr>
+            <td>Product 6</td>
+            <td><input class="input-field" type="number" name="quantity" maxlength="3" size="2" value="1" ></td>
+            <td>$<input type="text" value="2.50" name="price" maxlength="7" size="6"></td>
+          </tr>
+        </table>
+        <br>
+        <button type="button" class="add">+</button><br><br>
+        <div class="total">
+          <label for="total"><b>Total: $</b></label>
+          <input type="text" value="15" name="total">
+        </div>
+      </div>
+      <div class="buttonsection">
+        <button type="button" class="save">SAVE</button>
+      </div>
+    </div>
+
+<!--Footer-->
+   <div class="footer">
+       <div class="container-fluid">
+           <div class="row">
+             <div class="col-sm-3"><i class="fas fa-calendar-alt"></i> Place Orders 24/7</div>
+             <div class="col-sm-3"><i class="fas fa-truck"></i> Deliveries Mon-Fri 8am-5pm</div>
+             <div class="col-sm-3"><i class="fas fa-envelope-square"></i> inquiries@grubtogo.ca</div>
+             <div class="col-sm-3"><i class="fab fa-facebook"></i> @GrubToGoMTL</div>
+           </div>
+       </div>
+   </div>
+
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+  </body>
+</html>

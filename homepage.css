@@ -1,0 +1,51 @@
+/*-----Jumbotron Heading-----*/
+.jumbotron {
+    background-color: #8FBC8F;
+    color: white;
+}
+
+
+/*-----Navigation Bar-----*/
+.navbar-custom {
+    background-color: #F5F5F5;
+}
+
+
+/*-----Navigation Bar Links-----*/
+a.navbar-brand:link, a.navbar-brand:visited {
+    color: #8FBC8F;
+}
+
+a.navbar-brand:hover, a.navbar-brand:active {
+    color: #F5F5F5;
+}
+
+a.dropdown-toggle:link, a.dropdown-toggle:visited {
+    color:#8FBC8F;
+}
+
+a:link, a:visited {
+    color: #8FBC8F;
+}
+
+a.link:hover, a.link:active {
+    background-color: white;
+}
+    
+/*-----Drop Down Menu Links-----*/
+a.drop-item:link, a.drop-item:visited {
+    color: #8FBC8F;
+}
+
+
+/*-----Footer-----*/
+.footer {
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8FBC8F;
+    color: #373737;
+}

@@ -1,0 +1,11 @@
+{
+    "user": {
+        "first-name" : "First Name",
+        "last-name" : "Last Name",
+        "email" : "Email",
+        "password" : "password",
+        "address" : "address",
+        "country": "country"
+    }
+
+}

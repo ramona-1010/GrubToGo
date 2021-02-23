@@ -1,0 +1,162 @@
+body {
+  background-image: url("background-home.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+
+}
+.editorder{
+  font-size: 20px;
+  border: 3px solid #F5F5F5;
+  background-color: #F5F5F5;
+  padding: 8px;
+}
+.container{
+  font-size: 20px;
+  border: 8px solid white;
+  font-family:  arial, serif;
+  width: 97%;
+  background-color: white;
+  opacity: 0.92;
+
+}
+.orderbox{
+  padding: 20px;
+  width: 100%;
+
+}
+table{
+  font-family:  arial, serif;
+  font-size: 16px;
+  border-collapse: collapse;
+  width: 100%;
+
+
+}
+td, th{
+  border: 1px solid #f1f1f1;
+  text-align: left;
+  padding: 8px;
+
+
+}
+input[type=number]{
+  width: 25%;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 4px 5px;
+  display: inline-block;
+
+}
+input[type=text]{
+  width: auto;
+  border: 1px solid #f1f1f1;
+  box-sizing: border-box;
+  padding: 8px 12px;
+  margin: 4px 5px;
+  display: inline-block;
+
+}
+.add{
+  width: 50px;
+  height: 50px;
+  padding: 10px 16px;
+  font-size: 25px;
+  line-height: 1.33;
+  border-radius: 25px;
+  background-color: white;
+  color: darkslategrey;
+  border: 1px solid darkslategrey;
+
+
+}
+.total{
+  padding: 8px;
+
+
+
+}
+.buttonsection{
+  padding: 15px;
+  background-color: white;
+
+
+
+}
+button{
+  background-color: lightslategrey;
+  color: white;
+  padding: 15px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+   display: inline-block;
+
+
+}
+.save:hover{
+  background-color: white;
+  color: darkslategrey;
+}
+.add:hover{
+  background-color: lightslategrey;
+  color: white;
+}
+.save{
+  width: 100%;
+  border-radius: 10px;
+  border: 2px solid darkslategrey;
+
+
+}
+
+
+/* Header, navigation bar and footer */
+/*--------------Navigation Bar--------------*/
+
+/*-----Navigation Bar-----*/
+.navbar-custom {
+    background-color: #F5F5F5;
+}
+
+
+/*-----Navigation Bar Links-----*/
+a.navbar-brand:link, a.navbar-brand:visited {
+    color: #8FBC8F;
+}
+
+a.navbar-brand:hover, a.navbar-brand:active {
+    color: #F5F5F5;
+}
+
+a.dropdown-toggle:link, a.dropdown-toggle:visited {
+    color:#8FBC8F;
+}
+
+a:link, a:visited {
+    color: #8FBC8F;
+}
+
+a.link:hover, a.link:active {
+    background-color: white;
+}
+
+/*-----Drop Down Menu Links-----*/
+a.drop-item:link, a.drop-item:visited {
+    color: #8FBC8F;
+}
+
+
+/*-----Footer-----*/
+.footer {
+    position: sticky;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #8FBC8F;
+    color: #373737;
+    border: 1px #8FBC8F;
+}

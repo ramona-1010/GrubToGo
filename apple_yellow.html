@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="apple_yellow.css">
+    <title>Apple</title>
+    <!--Link to kit's Code for Icons-->
+    <script src="https://kit.fontawesome.com/e56d36b0a0.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href="images/logo.png" />
+</head>
+
+<body>
+
+   
+    <!-- <div class="jumbotron text-center" style="margin-bottom:0">
+        <h1>GrubToGo</h1>
+        <p>Fresh Food Fast</p>
+    </div>
+     -->
+    <!--Navigation Bar-->
+    <nav class="navbar navbar-expand-md bg-dark navbar-dark sticky-top">
+        <!-- Brand -->
+        <a class="navbar-brand" href="homepage.html"><i class='fas fa-seedling'></i>GrubToGo</a>
+    
+        <!-- Toggler/collapsibe Button -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavbar">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+    
+        <!-- Navbar links -->
+        <div class="collapse navbar-collapse" id="collapsibleNavbar">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link" href="signUpPage.html"><i class="fas fa-user-plus"></i> Sign Up</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="P5.html"><i class="fas fa-sign-in-alt"></i> Login</a>
+                </li>
+                <!-- Dropdown -->
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
+                        Aisles
+                    </a>
+                    <div class="dropdown-menu">
+                        <a class="dropdown-item" href="fruit_vegetables.html">Fruits & Vegetables</a>
+                        <a class="dropdown-item" href="meat-aisle.html">Meats & Alternatives</a>
+                        <a class="dropdown-item" href="dairyandeggs.html">Dairy & Eggs</a>
+                        <a class="dropdown-item" href="breadandbakedgoods.html">Bread & Baked Goods</a>
+                        <a class="dropdown-item" href="pantryaisle.html">Pantry Items</a>
+                        <a class="dropdown-item" href="FrozenAisle.html">Frozen Foods</a>
+                    </div>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#"><i class="fas fa-shopping-cart"></i> Cart</a>
+                </li>
+            </ul>
+        </div>
+        </nav>
+
+    <!-- Navigation Bar
+    <ul class="navBarList">
+        <li class="nav-link"><a href="/Homepage/" class="logoLink"><i class='fas fa-seedling'></i>GrubToGo</a></li>
+    
+        <li class="nav-link"><a href="/SignIn/" class="sub">Sign In</a></li>
+        <li class="nav-link"><a href="/SignUp/" class="sub"> Sign Up</a></li>
+        <li class="nav-link aisles-dropdown">
+            
+        </li>
+    
+        <li class="nav-link"><a href="/cart/" class="user"><i class="fas fa-shopping-cart"></i>Cart</a></li>
+      </ul> -->
+
+
+        <div class="container mt-5 mb-5">
+            <div class="d-flex justify-content-center row">
+                <div class="col-md-10">
+                    <div class="row p-2 bg-white border rounded">
+                        <div class="col-md-3 mt-1"><img class="img-fluid img-responsive rounded product-image"
+                                src="images/applegolden.jpg"></div>
+                        <div class="col-md-6 mt-1">
+                            <h5>Apple</h5>
+                            <div class="d-flex flex-row">
+                                <span>GrapTogo - Your Local Grocery Store</span>
+                            </div>
+                            <div class="mt-1 mb-1 spec-1"><span>Fresh </span><span class="dot"></span><span>Organic apples
+                                    </span><span class="dot"></span><span>Best quality<br></span></div>
+                           
+                                <p>
+                                    
+                                    
+                                </p>
+
+                                <div class="collapse" id="collapseExample">
+                                    <div class="card card-body">
+                                        The apple is a pome (fleshy) fruit, in which the ripened ovary and surrounding tissue both become fleshy and edible,
+                                        When harvested, apples are usually roundish, 5–10 cm (2–4 inches) in diameter, and some shade of red, green, or yellow
+                                        in colour; they vary in size, shape, and acidity depending on the variety.
+                                    </div>
+                                </div>
+                        </div>
+                        <div class="align-items-center align-content-center col-md-3 border-left mt-1">
+                            <div class="d-flex flex-row align-items-center">
+                                <h4 class="mr-1">$4.49</h4><span class="strike-text">$7.99</span>
+                            </div>
+
+                            <h6 class="text-success">Free Delivery</h6>
+
+                            <div class="d-flex flex-column mt-4"> 
+                                <button class="btn btn-primary btn-sm"
+                                    type="button" data-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">More Description</button>
+                                <button class="btn btn-outline-primary btn-sm mt-2" type="button" >Add to Cart</button>
+                                
+                                <div class="input-group plus-minus-input m-1" >
+
+                                    <div class="row" id="tocenter">
+                                    <div class="input-group-button m-1">
+                                        <button type="button" class="btn btn-danger" data-quantity="minus" data-field="quantity">
+                                            <i class="fa fa-minus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+
+                                    
+
+                                    <div class="input-group-button m-1">
+                                        <button type="button" class="btn btn-primary" data-quantity="plus" data-field="quantity">
+                                            <i class="fa fa-plus" aria-hidden="true"></i>
+                                        </button>
+                                    </div>
+
+                                    <input class="input-group-field" id="valuebox" type="number" name="quantity" value="0">
+
+                                    </div>
+                                </div>
+
+                            </div>
+
+                            
+                                    
+                                    
+                          </div>
+                        
+                    </div>
+                    
+                    
+                    
+                </div>
+            </div>
+        </div>
+
+           
+
+
+
+                
+
+        <!-- Footer info-->
+        <div class="footer">
+            <table>
+                <tr>
+                    <th>Hours of Operation</th>
+                    <th>Contact Us</th>
+                    <th>Follow Us</th>
+                </tr>
+                <tr>
+                    <td><i class='fas fa-calendar-alt'></i> Place Orders 24/7</td>
+                    <td><i class='fas fa-phone'></i> 514-436-1719</td>
+                    <td><i class='fab fa-facebook-square'></i> @GrubToGo</td>
+                </tr>
+                <tr>
+                    <td><i class='fas fa-truck'></i> Deliveries Mon-Fri 8am-10pm</td>
+                    <td><i class='fas fa-envelope-square'></i> inquiries@grubtogo.ca</td>
+                    <td><i class='fab fa-instagram'></i> @GrubToGoMTL</td>
+                </tr>
+            </table>
+        </div>
+
+
+
+
+
+
+
+
+        <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+            integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+            crossorigin="anonymous"></script>
+
+<!--         
+        
+        <script src="jquery-3.5.1.min.js"></script>
+    <script src="https://code.jquery.com/jquery-4.5.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script> -->
+
+    <script>
+
+        jQuery(document).ready(function () {
+            // This button will increment the value
+            $('[data-quantity="plus"]').click(function (e) {
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                fieldName = $(this).attr('data-field');
+                // Get its current value
+                var currentVal = parseInt($('input[name=' + fieldName + ']').val());
+                // If is not undefined
+                if (!isNaN(currentVal)) {
+                    // Increment
+                    $('input[name=' + fieldName + ']').val(currentVal + 1);
+                } else {
+                    // Otherwise put a 0 there
+                    $('input[name=' + fieldName + ']').val(0);
+                }
+            });
+            // This button will decrement the value till 0
+            $('[data-quantity="minus"]').click(function (e) {
+                // Stop acting like a button
+                e.preventDefault();
+                // Get the field name
+                fieldName = $(this).attr('data-field');
+                // Get its current value
+                var currentVal = parseInt($('input[name=' + fieldName + ']').val());
+                // If it isn't undefined or its greater than 0
+                if (!isNaN(currentVal) && currentVal > 0) {
+                    // Decrement one
+                    $('input[name=' + fieldName + ']').val(currentVal - 1);
+                } else {
+                    // Otherwise put a 0 there
+                    $('input[name=' + fieldName + ']').val(0);
+                }
+            });
+        });
+
+
+    </script>
+</body>
+
+</html>
