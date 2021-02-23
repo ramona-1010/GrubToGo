@@ -6,7 +6,7 @@
 
 }
 .bg-light {
-    background-color: #cfe2cf;
+    background-color: #cfe2cf!important;
   opacity: 0.9;
   padding: 16px;
 }
